@@ -37,7 +37,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -49,6 +49,16 @@
                BlueprintIdentifier = "E4E46FE71CD3F6B4009C4915"
                BuildableName = "PitchPerfectAppUITests.xctest"
                BlueprintName = "PitchPerfectAppUITests"
+               ReferencedContainer = "container:PitchPerfectApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E4E46FDC1CD3F6B4009C4915"
+               BuildableName = "PitchPerfectAppTests.xctest"
+               BlueprintName = "PitchPerfectAppTests"
                ReferencedContainer = "container:PitchPerfectApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
