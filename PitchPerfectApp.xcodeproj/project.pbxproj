@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					E4E46FC81CD3F6B4009C4915 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 9N2BGP2R37;
+						DevelopmentTeam = EA6F4SQTX7;
 					};
 					E4E46FDC1CD3F6B4009C4915 = {
 						CreatedOnToolsVersion = 7.3;
@@ -402,13 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: marwitz@gmail.com (JSHQE3YJZN)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: marwitz@gmail.com (JSHQE3YJZN)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Steffen Marwitz (EA6F4SQTX7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Steffen Marwitz (EA6F4SQTX7)";
 				INFOPLIST_FILE = PitchPerfectApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SMarwitz.PitchPerfectApp;
+				PRODUCT_BUNDLE_IDENTIFIER = SMarwitz.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b5163ef8-6565-41be-a856-6aa3d2820306";
+				PROVISIONING_PROFILE = "3933780c-749f-462f-bdf5-a7d5aea8f50b";
 			};
 			name = Debug;
 		};
@@ -416,13 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: marwitz@gmail.com (JSHQE3YJZN)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: marwitz@gmail.com (JSHQE3YJZN)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Steffen Marwitz (EA6F4SQTX7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Steffen Marwitz (EA6F4SQTX7)";
 				INFOPLIST_FILE = PitchPerfectApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SMarwitz.PitchPerfectApp;
+				PRODUCT_BUNDLE_IDENTIFIER = SMarwitz.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b5163ef8-6565-41be-a856-6aa3d2820306";
+				PROVISIONING_PROFILE = "3933780c-749f-462f-bdf5-a7d5aea8f50b";
 			};
 			name = Release;
 		};
