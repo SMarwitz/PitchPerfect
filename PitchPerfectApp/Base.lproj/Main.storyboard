@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -22,11 +23,40 @@
                                 <color key="backgroundColor" red="0.42721628850041504" green="1" blue="0.52014112226451525" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Record"/>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="U2J-2S-fAL">
+                                <rect key="frame" x="20" y="80" width="560" height="105"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7z-ce-sRG">
+                                        <rect key="frame" x="0.0" y="0.0" width="87" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R5k-NM-ba6">
+                                        <rect key="frame" x="0.0" y="33" width="560" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XdN-89-KPA">
+                                        <rect key="frame" x="0.0" y="75" width="151" height="30"/>
+                                        <state key="normal" title="Set Default Label Text"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="R5k-NM-ba6" secondAttribute="trailing" id="OBU-H1-kVA"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="U2J-2S-fAL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5pa-Tq-Di8"/>
+                            <constraint firstItem="U2J-2S-fAL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="M56-mH-U1b"/>
                             <constraint firstItem="Fbc-3G-LVO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="P83-o5-Nf1"/>
+                            <constraint firstItem="U2J-2S-fAL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Te2-go-RRH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U2J-2S-fAL" secondAttribute="trailing" id="XqM-iy-xdF"/>
                             <constraint firstItem="Fbc-3G-LVO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cJW-rd-HbA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U2J-2S-fAL" secondAttribute="trailing" id="knl-9D-jRb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U2J-2S-fAL" secondAttribute="trailing" id="sad-rB-xud"/>
                             <constraint firstItem="Fbc-3G-LVO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w2r-gb-7Dw"/>
                         </constraints>
                     </view>
